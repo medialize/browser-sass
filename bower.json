@@ -1,0 +1,32 @@
+{
+  "name": "browser-sass",
+  "version": "0.0.0",
+  "homepage": "https://github.com/medialize/browser-sass",
+  "authors": [
+    "Rodney Rehm <mail+github@rodneyrehm.de>"
+  ],
+  "description": "Browser bindings to libsass (via Sass.js)",
+  "main": "index.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "libsass",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass.js": "~0.8.1"
+  }
+}
